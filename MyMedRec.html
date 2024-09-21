@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="med.css">
+    <title></title>
+    <div class="toolbar">
+    <a href="Home.html">Home</a>
+    <a href="MyMedRec.html">My Medical Records</a>
+    <a href="#appointments">Appointments</a>
+    </div>
+  </head>
+  <body>
+    <h2>Request for Medical Records</h2>
+    <h3>Please fill out the following information to request your medical records</h3>
+    <div class="main">
+      <form action="">
+        <label for="first">
+          Full Name
+        </label>
+        <input type="text"
+               placeholder="Enter your full name" required>
+
+        <label for="DOB">
+        Date of Birth
+        </label>
+        <input type= "text"
+        placeholder="DD/MM/YYYY" required>
+        <label for="IDn">
+        Identification Number
+        </label>
+        <input type= "number"
+        placeholder="" required>
+        <label for="agreement">By clicking Submit, I authorize the release of my medical records</label>
+        <div class="wrap">
+        <button type="submit"
+        onclick="solve()">
+        Submit
+        </button>
+        </div>
+      </form>
+
+          </div>
+          <footer>
+               <p id="copyright" class="copyright">
+               Copyright &copy; 2024 Oroshya Technologies
+             </p>
+           </footer>
+  </body>
+</html>
